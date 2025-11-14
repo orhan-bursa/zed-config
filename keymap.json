@@ -1,0 +1,53 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-m": "editor::ShowCompletions",
+      "ctrl-alt-shift-cmd-tab": "pane::AlternateFile",
+      "ctrl-alt-shift-cmd-w": "pane::ActivateNextItem",
+      "ctrl-alt-shift-cmd-e": "pane::ActivatePreviousItem",
+
+      "ctrl-alt-shift-cmd-s m": "pane::JoinAll",
+      "ctrl-alt-shift-cmd-s right": [
+        "workspace::MoveItemToPaneInDirection",
+        { "direction": "right" }
+      ],
+      "ctrl-alt-shift-cmd-s left": [
+        "workspace::MoveItemToPaneInDirection",
+        { "direction": "left" }
+      ],
+      "ctrl-alt-shift-cmd-s down": [
+        "workspace::MoveItemToPaneInDirection",
+        { "direction": "down" }
+      ],
+      "ctrl-alt-shift-cmd-s up": [
+        "workspace::MoveItemToPaneInDirection",
+        { "direction": "up" }
+      ],
+
+      "ctrl-alt-shift-cmd-right": "workspace::ActivatePaneRight",
+      "ctrl-alt-shift-cmd-left": "workspace::ActivatePaneLeft",
+      "ctrl-alt-shift-cmd-down": "workspace::ActivatePaneDown",
+      "ctrl-alt-shift-cmd-up": "workspace::ActivatePaneUp"
+    }
+  }
+]
