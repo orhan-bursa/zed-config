@@ -1,0 +1,17 @@
+{
+  "Log to console": {
+    "prefix": "clg",
+    "body": ["console.log(\"$0\")"],
+    "description": "Logs to console"
+  },
+  "Log object to console": {
+    "prefix": "clgo",
+    "body": ["console.log({$0})"],
+    "description": "Logs to console"
+  },
+  "Log object to console with string": {
+    "prefix": "clo",
+    "body": ["console.log(\"$0\",{$0})"],
+    "description": "Logs to console"
+  }
+}

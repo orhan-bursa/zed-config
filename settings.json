@@ -23,7 +23,7 @@
     "min_line_number_digits": 2,
     "line_numbers": true
   },
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "buffer_font_family": "JetBrainsMonoNL Nerd Font",
   "ui_font_family": ".ZedSans",
   "vim_mode": true,

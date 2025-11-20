@@ -1,0 +1,15 @@
+{
+  "React Function Component": {
+    "prefix": "rfc",
+    "body": [
+      "type Props = {}",
+      "",
+      "const ${0:MyComponent}: React.FC<Props> = () => {",
+      "  return <div>${0:MyComponent}</div>",
+      "}",
+      "",
+      "export default ${0:MyComponent};"
+    ],
+    "description": "React function component with filename as component name"
+  }
+}
