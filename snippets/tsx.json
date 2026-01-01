@@ -4,7 +4,7 @@
     "body": [
       "type Props = {}",
       "",
-      "const ${0:MyComponent}: React.FC<Props> = () => {",
+      "const ${0:MyComponent}: React.FC<Props> = ({}) => {",
       "  return <div>${0:MyComponent}</div>",
       "}",
       "",
