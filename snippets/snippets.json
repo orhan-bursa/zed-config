@@ -1,7 +1,7 @@
 {
   "Log to console": {
     "prefix": "clg",
-    "body": ["console.log(\"$0\", {$0})"],
+    "body": ["console.log($0)"],
     "description": "Logs to console",
   },
   "Log object to console": {
@@ -9,8 +9,13 @@
     "body": ["console.log({$0})"],
     "description": "Logs to console",
   },
-  "Log object to console with string": {
-    "prefix": "clo",
+  "Log string to console": {
+    "prefix": "clgs",
+    "body": ["console.log(\"$0\")"],
+    "description": "Logs to console",
+  },
+  "Log string and object to console": {
+    "prefix": "clgso",
     "body": ["console.log(\"$0\",{$0})"],
     "description": "Logs to console",
   },
